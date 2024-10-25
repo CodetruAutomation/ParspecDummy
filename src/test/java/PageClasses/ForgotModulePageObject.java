@@ -106,7 +106,10 @@ public class ForgotModulePageObject extends Excel_Utility_ForgotModule
 		SparkReporter.config().setDocumentTitle("MyReport");
 		ext.attachReporter(SparkReporter);
 		ChromeOptions cop = new ChromeOptions();
-
+		cop.addArguments("--headless");
+		cop.addArguments("--no-sandbox"); // Bypass OS security model
+       	cop.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
+       	cop.addArguments("--window-size=1920x1080"); // Set the win
 		cop.addArguments("--allow-running-insecure-content");
 
 		driver = new ChromeDriver(cop);
