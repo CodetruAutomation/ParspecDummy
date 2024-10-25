@@ -32,7 +32,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ForgotModulePageObject extends Excel_Utility_ForgotModule
 {
-	RemoteWebDriver driver;
+	WebDriver driver;
 	WebDriverWait wait;
 	String     mainwindow;
 	public   WebElement email ;

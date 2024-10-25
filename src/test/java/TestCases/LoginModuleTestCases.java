@@ -20,7 +20,7 @@ public class LoginModuleTestCases extends LoginModulePageObject
 	@BeforeTest
 	public void chromeopen() throws MalformedURLException 
 	{
-		//Login.BrowserLaunch();
+	//	Login.BrowserLaunch();
 		Login.chromeopen();
 	}
 	
