@@ -116,7 +116,6 @@ public class ForgotModulePageObject extends Excel_Utility_ForgotModule
 		DesiredCapabilities dc=new DesiredCapabilities();
 		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/usr/bin/google-chrome");
 		dc.setCapability(CapabilityType.BROWSER_NAME, "chrome");
-		driver = new RemoteWebDriver(new URL("http://codetru.org:4444/wd/hub"),dc);
 
 		driver.get("https://codetrue-poc--stage-parspec-app.netlify.app/login");
 		// WebDriverManager.chromedriver().setup();
