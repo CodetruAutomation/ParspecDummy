@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="14" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T17:39:20 IST" name="Default suite" finished-at="2023-07-11T17:43:37 IST" duration-ms="256928">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T17:39:20 IST" name="Default test" finished-at="2023-07-11T17:43:37 IST" duration-ms="256928">
+      <class name="TestCases.ForgotModuleTestCases">
+        <test-method is-config="true" signature="ExtentReportSetup1()[pri:0, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:39:20 IST" name="ExtentReportSetup1" finished-at="2023-07-11T17:39:20 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportSetup1 -->
+        <test-method is-config="true" signature="chrome_Setup()[pri:0, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:39:20 IST" name="chrome_Setup" finished-at="2023-07-11T17:39:46 IST" duration-ms="25790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome_Setup -->
+        <test-method signature="Scenario_0()[pri:0, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:39:46 IST" name="Scenario_0" finished-at="2023-07-11T17:40:17 IST" duration-ms="30603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_0 -->
+        <test-method signature="Scenario_1()[pri:1, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:40:17 IST" name="Scenario_1" finished-at="2023-07-11T17:40:20 IST" duration-ms="3700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_1 -->
+        <test-method signature="Scenario_2()[pri:2, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:40:20 IST" name="Scenario_2" finished-at="2023-07-11T17:40:21 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_2 -->
+        <test-method signature="Scenario_3()[pri:3, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:40:21 IST" name="Scenario_3" finished-at="2023-07-11T17:40:51 IST" duration-ms="30080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_3 -->
+        <test-method signature="Scenario_4()[pri:4, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:40:51 IST" name="Scenario_4" finished-at="2023-07-11T17:40:57 IST" duration-ms="6345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_4 -->
+        <test-method signature="Scenario_5()[pri:5, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:40:57 IST" name="Scenario_5" finished-at="2023-07-11T17:41:10 IST" duration-ms="12455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_5 -->
+        <test-method signature="Scenario_6()[pri:6, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:41:10 IST" name="Scenario_6" finished-at="2023-07-11T17:41:36 IST" duration-ms="26619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_6 -->
+        <test-method signature="Scenario_7()[pri:7, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:41:36 IST" name="Scenario_7" finished-at="2023-07-11T17:41:38 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_7 -->
+        <test-method signature="Scenario_8()[pri:8, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:41:38 IST" name="Scenario_8" finished-at="2023-07-11T17:42:16 IST" duration-ms="37156" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='subheading']"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1d60fecaa07ce32f125f0e03977b858a, findElement {using=xpath, value=//p[@class='subheading']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.gQYlQk}, goog:chromeOptions: {debuggerAddress: localhost:42807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.22.0.3:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.22.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.22.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d60fecaa07ce32f125f0e03977b858a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='subheading']"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1d60fecaa07ce32f125f0e03977b858a, findElement {using=xpath, value=//p[@class='subheading']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.gQYlQk}, goog:chromeOptions: {debuggerAddress: localhost:42807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.22.0.3:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.22.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.22.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d60fecaa07ce32f125f0e03977b858a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at PageClasses.ForgotModulePageObject.Test_8(ForgotModulePageObject.java:365)
+at TestCases.ForgotModuleTestCases.Scenario_8(ForgotModuleTestCases.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_8 -->
+        <test-method signature="Scenario_9()[pri:9, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:16 IST" name="Scenario_9" finished-at="2023-07-11T17:42:36 IST" duration-ms="20259" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@autocomplete='new-password']"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1d60fecaa07ce32f125f0e03977b858a, findElement {using=xpath, value=//input[@autocomplete='new-password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.gQYlQk}, goog:chromeOptions: {debuggerAddress: localhost:42807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.22.0.3:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.22.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.22.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d60fecaa07ce32f125f0e03977b858a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@autocomplete='new-password']"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1d60fecaa07ce32f125f0e03977b858a, findElement {using=xpath, value=//input[@autocomplete='new-password']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.gQYlQk}, goog:chromeOptions: {debuggerAddress: localhost:42807}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.22.0.3:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.22.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.22.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d60fecaa07ce32f125f0e03977b858a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at PageClasses.ForgotModulePageObject.Test_9(ForgotModulePageObject.java:391)
+at TestCases.ForgotModuleTestCases.Scenario_9(ForgotModuleTestCases.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_9 -->
+        <test-method signature="Scenario_10()[pri:10, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:36 IST" name="Scenario_10" finished-at="2023-07-11T17:42:36 IST" duration-ms="20" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.new_password" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "this.new_password" is null
+at PageClasses.ForgotModulePageObject.Test_10(ForgotModulePageObject.java:409)
+at TestCases.ForgotModuleTestCases.Scenario_10(ForgotModuleTestCases.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_10 -->
+        <test-method signature="Scenario_11()[pri:11, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:36 IST" name="Scenario_11" finished-at="2023-07-11T17:42:39 IST" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_11 -->
+        <test-method signature="Scenario_12()[pri:12, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:39 IST" name="Scenario_12" finished-at="2023-07-11T17:42:42 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_12 -->
+        <test-method signature="Scenario_13()[pri:13, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:42 IST" name="Scenario_13" finished-at="2023-07-11T17:42:44 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_13 -->
+        <test-method signature="Scenario_14()[pri:14, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:44 IST" name="Scenario_14" finished-at="2023-07-11T17:42:47 IST" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_14 -->
+        <test-method signature="Scenario_15()[pri:15, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:42:47 IST" name="Scenario_15" finished-at="2023-07-11T17:43:10 IST" duration-ms="23311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_15 -->
+        <test-method signature="Scenario_16()[pri:16, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:43:10 IST" name="Scenario_16" finished-at="2023-07-11T17:43:33 IST" duration-ms="22992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_16 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:43:33 IST" name="closebrowser" finished-at="2023-07-11T17:43:37 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="teardown1()[pri:0, instance:TestCases.ForgotModuleTestCases@13fd2ccd]" started-at="2023-07-11T17:43:37 IST" name="teardown1" finished-at="2023-07-11T17:43:38 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown1 -->
+      </class> <!-- TestCases.ForgotModuleTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
