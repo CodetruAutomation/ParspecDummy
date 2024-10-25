@@ -377,19 +377,14 @@ public class LoginModulePageObject extends Excel_Utility_LoginModule {
 		//WebDriverManager.chromedriver().setup(); 
 
 		
-		
-		
-		
-		DesiredCapabilities dc=new DesiredCapabilities();
-	       dc.setCapability(CapabilityType.BROWSER_NAME, "chrome");
 	       ChromeOptions cop = new ChromeOptions();
-	       driver = new RemoteWebDriver(cop);
+	       
 	       cop.addArguments("--headless");
 			cop.addArguments("--no-sandbox"); // Bypass OS security model
 	       		 cop.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
 	       		 cop.addArguments("--window-size=1920x1080"); // Set the win
 	       cop.addArguments("--allow-running-insecure-content");	
-
+	       driver = new RemoteWebDriver(cop);
 		driver.get("https://codetrue-poc--stage-parspec-app.netlify.app/login");
 
 		driver.manage().window().maximize();
