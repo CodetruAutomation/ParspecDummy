@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.ForgotModuleTestCases">
+      <class name="TestCases.GoogleSearchTest">
         <methods>
-          <include name="ExtentReportSetup1"/>
-          <include name="Scenario_8"/>
-          <include name="chrome_Setup"/>
-          <include name="Scenario_10"/>
-          <include name="teardown1"/>
-          <include name="Scenario_9"/>
-          <include name="closebrowser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testGoogleSearch"/>
         </methods>
-      </class> <!-- TestCases.ForgotModuleTestCases -->
+      </class> <!-- TestCases.GoogleSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
